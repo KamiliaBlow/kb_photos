@@ -18,6 +18,8 @@ Config.LocaleCameraFilters = "Filter"
 Config.LocaleExitCameraMode = "Back"
 Config.LocaleFilterString = "Filter: "
 
+Config.LocalePrompt = 'Camera'
+
 -- --- Control Keys (Hashes) ---
 Config.CameraModeKey = 0xE8342FF2 -- LEFT ALT
 Config.TakePhotoKey = 0x07CE1E61 -- LMB
@@ -26,7 +28,7 @@ Config.ZoomMinusKey = 0x8BDE7443 -- SCROLL DOWN
 Config.CameraFiltersKey = 0xCEE12B50 -- MMB
 Config.ExitCameraModeKey = 0xF84FA74F -- RMB
 
--- Список эффектов
+-- Effects list
 Config.Filters = {
     {name = "Regular", effect = ""},
     {name = "Sepia 1", effect = "PhotoMode_FilterVintage01"},

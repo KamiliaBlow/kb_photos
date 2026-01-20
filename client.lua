@@ -262,7 +262,7 @@ CreateThread(function()
 
         elseif isHolding then
             Wait(5) 
-            PromptSetActiveGroupThisFrame(PromptGroup, CreateVarString(10, 'LITERAL_STRING', 'Камера'))
+            PromptSetActiveGroupThisFrame(PromptGroup, CreateVarString(10, 'LITERAL_STRING', Config.LocalePrompt))
 
             if Citizen.InvokeNative(0xC92AC953F0A982AE, PromptCamera) then 
                 if isReg then StartRegularMode() elseif isAdv then StartAdvancedMode() end
