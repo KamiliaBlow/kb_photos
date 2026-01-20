@@ -12,8 +12,7 @@ Config.CameraSmoothness = 0.15
 -- --- Translate ---
 Config.LocaleCameraMode = "Photo mode"
 Config.LocaleTakePhoto = "Take photo"
-Config.LocaleZoomPlus = "Zoom +"
-Config.LocaleZoomMinus = "Zoom -"
+Config.LocaleZoom = "Zoom"
 Config.LocaleCameraFilters = "Filter"
 Config.LocaleExitCameraMode = "Back"
 Config.LocaleFilterString = "Filter: "
